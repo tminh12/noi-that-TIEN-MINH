@@ -1,0 +1,342 @@
+<!DOCTYPE html> 
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title> Nội thất TIEN MINH </title>
+    <link rel="stylesheet" href="thietkeweb.css" /> 
+    <script src="jquery.js"></script>
+    <script src="thietkeweb(BTL).js"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+			<style type="text/css">
+            body {
+				background-color: white;
+				margin: 0px;
+			}
+		    </style>
+</head>
+    <body>
+        <div id="top">
+            <div id="top-content">
+                <div id="top-left"> chào mừng đến với nội thất tien minh
+				</div>
+				<div id="top-right">
+                    <a href="cart.html" class="cart" id="cart">🛒(0)</a>
+					<a href="login.html">Đăng nhập</a>
+					<a href="signup.html">Đăng ký</a>
+				</div>
+            </div>
+        </div>
+        <div id="banner">
+            <div id="banner-content">
+                <div id="logo">
+                    <img src="logobtl.png" alt="logo">
+                </div>
+                <div id="menu">
+                <ul>
+                    <li><a href="index.html">TRANG CHỦ</a></li>
+                    <li><a href="gioithieu.html">GIỚI THIỆU</a></li>
+                    <li>
+                        <a href="sanpham.html">SẢN PHẨM </a>
+                        <ul>
+                            <li><a href="#">Bàn gỗ</a></li>
+                            <li><a href="#">Kệ sách</a></li>
+                            <li><a href="sofa.html">Sofa</a></li>
+                            <li><a href="#">Giường ngủ</a></li>
+                            <li><a href="#">Tủ gỗ</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">TIN TỨC </a></li>
+                    <li><a href="#">LIÊN HỆ</a></li>
+                </ul>
+                </div>
+            </div>
+        </div>
+        <div id="banner-img">
+            <img id="slide" src="slide1.jpg" alt="banner">
+        </div>
+        <script>
+			autoPlay(); 
+		</script>
+
+        <div id="service">
+            <div id="support">
+                <div class="banner-box">
+                <div class="icon">
+                    <img src="support.jpg" alt="support">
+                </div>
+                <div class="text">
+                    <b>Hỗ trợ 24/7</b>
+                    <p>Hotline: 123456789</p>
+                </div>
+                </div>
+            </div>
+            <div id="deliver">
+                <div class="banner-box">
+                 <div class="icon">
+                    <img src="policy.jpg" alt="delivery">
+                </div>
+                <div class="text">
+                    <b>Giao hàng miễn phí</b>
+                    <p>Thời gian giao hàng nhanh chóng, từ 3 - 5 ngày làm việc</p>
+                </div>
+                </div>
+            </div>
+            <div id="pay">
+                <div class="banner-box">
+                <div class="icon">
+                    <img src="pay.ico" alt="payment">
+                </div>
+                <div class="text">
+                    <b>Thanh toán đa dạng</b>
+                    <p>Chấp nhận thanh toán COD, Momo, Banking</p>
+                </div>
+                </div>
+            </div>
+            <div id="return">
+                <div class="banner-box">
+                <div class="icon">
+                    <img src="return.ico" alt="return">
+                </div>
+                <div class="text">
+                    <b>Đổi trả hàng dễ dàng</b>
+                    <p>Thời gian trả hàng lên tới 30 ngày</p>
+                </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="wrapper">
+            <div id="container">
+                <div id="list-cate">
+                    <h1>DANH MỤC SẢN PHẨM</h1>
+                    <ul>
+                        <li><a href="#">Phòng ngủ</a></li>
+                        <li><a href="#">Phòng khách</a></li>
+                        <li><a href="#">Phòng bếp</a></li>
+                        <li><a href="#">Đồ trang trí</a></li>
+                        <li><a href="#">Ghế sofa</a></li>
+                        <li><a href="#">Giường ngủ</a></li>
+                        <li><a href="#">Thảm trải sàn</a></li>
+                    </ul>
+                </div>
+                <div id="hot-product">
+                    <div id="hot-title">
+                    <h2>SẢN PHẨM NỔI BẬT</h2>
+                        <div class="tabs">
+                            <a href="#" class="active">Phòng khách</a>
+                            <a href="#">Phòng ngủ</a>
+                            <a href="#">Phòng bếp</a>
+                        </div>
+                    </div>
+                    <div class="product-list">
+                        <div class="product-box">
+                            <img src="ghesofa.jpg">
+                            <h3>Ghế sofa</h3>
+                            <p>6.800.000đ</p>
+                        </div>
+
+                        <div class="product-box">
+                            <img src="ketivi.jpg">
+                            <h3>Kệ tivi </h3>
+                            <p>3.900.000đ</p>
+                        </div>
+
+                        <div class="product-box">
+                            <img src="bantra.jpg">
+                            <h3>Bàn trà</h3>
+                            <p>5.800.000đ</p>
+                        </div>
+
+                        <div class="product-box">
+                            <img src="tugo.jpg">
+                            <h3>Tủ gỗ </h3>
+                            <p>4.400.000đ</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="cate">
+					<h1 class="cate-title">Phòng khách</h1>
+					<div class="list-product">
+						<div class="col-s-12 col-m-6 col-x-3">
+							<div class="product">
+								<img class="photo" src="sofaghenamshibuya.jpg">
+								<span class="name">Sofa ghế nằm SHIBUYA</span>
+								<span class="price">16.400.000đ</span>
+                                <input type="button" value="Mua hàng" class="buy">
+							</div>
+						</div>
+						<div class="col-s-12 col-m-6 col-x-3">
+							<div class="product">
+							<a href="ghemonaco.html">
+                                <img class="photo" src="sofaconnemara.jpg">
+                            </a>
+								<span class="name">Sofa CONNEMARA</span>
+								<span class="price">14.500.000đ</span>
+                                <input type="button" value="Mua hàng" class="buy">
+							</div>
+						</div>
+						<div class="col-s-12 col-m-6 col-x-3">
+							<div class="product">
+								<img class="photo" src="sofagiuongbohemia.jpg">
+								<span class="name">Sofa giường BOHEMIA</span>
+								<span class="price">8.700.000đ</span>
+                                <input type="button" value="Mua hàng" class="buy">
+							</div>
+						</div>
+						<div class="col-s-12 col-m-6 col-x-3">
+                            <div class="product">
+							<a href="ghemonaco.html">
+                                <img class="photo" src="sofamonaco.jpg">
+                            </a>
+								<span class="name">Sofa MONACO</span>
+								<span class="price">13.990.000đ</span>
+                                <input type="button" value="Mua hàng" class="buy">
+                            </div>
+						</div>
+                    </div>
+
+                    <h1 class="cate-title">Phòng ngủ</h1>
+					<div class="list-product">
+						<div class="col-s-12 col-m-6 col-x-3">
+							<div class="product">
+								<img class="photo" src="giuongalbany.jpg">
+								<span class="name">Giường ALBANY</span>
+								<span class="price">7.400.000đ</span>
+                                <input type="button" value="Mua hàng" class="buy">
+							</div>
+						</div>
+						<div class="col-s-12 col-m-6 col-x-3">
+							<div class="product">
+								<img class="photo" src="giuongbernie.jpg">
+								<span class="name">Giường Bernie</span>
+								<span class="price">4.990.000đ</span>
+                                <input type="button" value="Mua hàng" class="buy">
+							</div>
+						</div>
+						<div class="col-s-12 col-m-6 col-x-3">
+							<div class="product">
+								<img class="photo" src="giuongrally.jpg">
+								<span class="name">Giường RALLY</span>
+								<span class="price">6.490.000đ</span>
+                                <input type="button" value="Mua hàng" class="buy">
+							</div>
+						</div>
+						<div class="col-s-12 col-m-6 col-x-3">
+							<div class="product">
+								<img class="photo" src="giuongyokohama.jpg">
+								<span class="name">Giường YOKOHAMA</span>
+								<span class="price">3.990.000đ</span>
+                                <input type="button" value="Mua hàng" class="buy">
+							</div>
+						</div>
+                    </div>
+
+                    <h1 class="cate-title">Phòng bếp</h1>
+					<div class="list-product">
+						<div class="col-s-12 col-m-6 col-x-3">
+							<div class="product">
+								<img class="photo" src="banghegrace.jpg">
+								<span class="name">Bộ bàn ăn GRACE</span>
+								<span class="price">6.400.000đ</span>
+                                <input type="button" value="Mua hàng" class="buy">
+						    </div>
+						</div>
+						<div class="col-s-12 col-m-6 col-x-3">
+							<div class="product">
+								<img class="photo" src="banghekemble.jpg">
+								<span class="name">Bộ bàn ăn KEMBLE</span>
+								<span class="price">8.500.000đ</span>
+                                <input type="button" value="Mua hàng" class="buy">
+							</div>
+						</div>
+						<div class="col-s-12 col-m-6 col-x-3">
+							<div class="product">
+								<img class="photo" src="banghekenedy.jpg">
+								<span class="name">Bộ bàn ăn KENEDY</span>
+								<span class="price">7.700.000đ</span>
+                                <input type="button" value="Mua hàng" class="buy">
+							</div>
+						</div>
+						<div class="col-s-12 col-m-6 col-x-3">
+							<div class="product">
+								<img class="photo" src="bangheneva.jpg">
+								<span class="name">Bộ bàn ăn NEVA</span>
+								<span class="price">8.400.000đ</span>
+                                <input type="button" value="Mua hàng" class="buy">
+							</div>
+						</div>
+				    </div>
+                </div>
+            </div> 
+        </div>
+
+        
+
+        <div id="footer">
+            <div id="footer-content">
+                <div class="logo-box">
+                    <h1 class="logo">TIENMINH</h1>
+                    <p class="slogan">
+                        Nội thất hiện đại - Nâng tầm không gian sống
+                    </p>
+                    <div class="info">
+                        <span>📍 Khoái Châu, Hưng Yên</span>
+                    </div>
+                    <div class="info">
+                        <span>📞 123456789</span>
+                    </div>
+                    <div class="info">
+                        <i class="Email"></i>
+                        <span>✉ tienminh@gmail.com</span>
+                    </div>
+                </div>
+                
+                <div class="footer-box">
+                    <h3>CHÍNH SÁCH</h3>
+                    <ul>
+                        <li><a href="index.html">Trang chủ</a></li>
+                        <li><a href="#">Giới thiệu</a></li>
+                        <li><a href="#">Sản phẩm</a></li>
+                        <li><a href="#">Tin tức</a></li>
+                        <li><a href="#">Liên hệ</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-box">
+                    <h3>ĐIỀU KHOẢN</h3>
+                    <ul>
+                        <li><a href="index.html">Trang chủ</a></li>
+                        <li><a href="#">Giới thiệu</a></li>
+                        <li><a href="#">Sản phẩm</a></li>
+                        <li><a href="#">Tin tức</a></li>
+                        <li><a href="#">Liên hệ</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-box">
+                    <h3>HƯỚNG DẪN</h3>
+                    <ul>
+                        <li><a href="index.html">Trang chủ</a></li>
+                        <li><a href="#">Giới thiệu</a></li>
+                        <li><a href="#">Sản phẩm</a></li>
+                        <li><a href="#">Tin tức</a></li>
+                        <li><a href="#">Liên hệ</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div id="quick-contact-bottom">
+                <div class="copyright">
+                    <p>Bản quyền thuộc về <b>TIENMINH</b> | Website bán hàng thiết kế bởi Tiến Minh</p>
+                </div>
+                <div class="quick-contact-menu">
+                    <a href="index.html">Trang chủ</a>
+                    <a href="#">Giới thiệu</a>
+                    <a href="#">Sản phẩm</a>
+                    <a href="#">Tin tức</a>
+                    <a href="#">Liên hệ</a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
